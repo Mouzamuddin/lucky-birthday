@@ -1,0 +1,79 @@
+:root {
+    --background-dark: #fffbf6;
+    --primary--color: #92BFB1;
+    --dark--brown: #50382B;
+  }
+  
+  html {
+    background-color: var(--background-dark);
+    color: var(--primary--color);
+    height: 100%;
+  }
+  
+  .header {
+    text-align: center;
+    margin-top: 200px;
+  }
+  
+  .container {
+    width: 300px;
+    margin: auto auto;
+  }
+  
+  label,
+  input {
+    display: block;
+    margin-top: 0.5rem;
+    width: 100%;
+    color: var(--dark--brown)
+  }
+  
+  label {
+    font-weight: 500;
+    font-size: 1.3rem;
+   
+  }
+  
+  input {
+    border-radius: 5px;
+    padding: 0.5rem;
+    border: transparent;
+    font-size: large;
+    margin: 1rem 0;
+  }
+  
+  #check {
+    margin: 0.5rem auto;
+    display: block;
+  }
+  
+  #check {
+    background-color: var(--background-dark);
+    border: 2px solid var(--dark--brown);
+    color: var(--dark--brown);
+    padding: 0.4rem 1rem;
+    border-radius: 0.5rem;
+    font-size: large;
+    cursor: pointer;
+    outline: var(--primary--color);
+    margin: auto;
+    display: block;
+  }
+  
+  .output-container {
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    width: 100%;
+    text-align: center;
+    padding: 0.5rem;
+    font-size: x-large;
+    border-color: var(--primary--color);
+    border-width: medium;
+    border-radius: 5px;
+  }
+  #note{
+      color: red;
+      text-align: center;
+      font-size: larger;
+  }
